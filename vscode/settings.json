@@ -1,0 +1,80 @@
+{
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "editor.cursorBlinking": "solid",
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      }
+    ],
+    
+    "vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": false,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3,
+    "window.menuBarVisibility": "compact",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontSize": 13,
+    "python.analysis.autoImportCompletions": true,
+    "editor.fontSize": 13,
+    "window.zoomLevel": 1,
+    "notebook.breadcrumbs.showCodeCells": false,
+    "breadcrumbs.enabled": false,
+    "git.autorefresh": false,
+    "git.enabled": false,
+    "git.requireGitUserConfig": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "workbench.startupEditor": "none",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.glyphMargin": false,
+    "window.density.editorTabHeight": "compact",
+    "editor.accessibilitySupport": "off",
+    "breadcrumbs.showArrays": false,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.activityBar.location": "hidden",
+    "terminal.external.osxExec": "iTerm.app",
+    "redhat.telemetry.enabled": true,
+    "[ansible]": {
+      "editor.detectIndentation": true,
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.quickSuggestions": {
+        "comments": true,
+        "other": true,
+        "strings": true
+      },
+      "editor.autoIndent": "advanced"
+    },
+    "workbench.colorCustomizations": {
+      "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": [
+      "workbench.colorCustomizations"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "python.createEnvironment.trigger": "off",
+    "[dockercompose]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "advanced",
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "chat.commandCenter.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false
+  }
