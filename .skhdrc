@@ -1,7 +1,7 @@
 
-cmd + shift - l : open -a iTerm
-cmd + shift - o : open -a Obsidian
-cmd + shift - i : open -a Telegram
-cmd + shift - j : open -a "Google Chrome"
-cmd + shift - k : open -a "Visual Studio Code"
+ctrl - l : open -a iTerm
+ctrl - o : open -a Obsidian
+ctrl - i : open -a Telegram
+ctrl - k : open -a "Google Chrome"
+ctrl - j : open -a "Visual Studio Code"
 
