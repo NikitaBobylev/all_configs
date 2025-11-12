@@ -15,14 +15,18 @@
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "solid",
   "workbench.colorCustomizations": {
-  "editorCursor.foreground": "#3085c7",
-    
+    "editorCursor.foreground": "#3085c7",
     "terminalCursor.foreground": "#3085c7"
   },
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "k"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "workbench.colorTheme": "06143cbe-2d51-4423-9a93-73a02c828119",
@@ -56,5 +60,8 @@
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
   "material-icon-theme.hidesExplorerArrows": true,
-  "flow-icons.hidesExplorerArrows": true
+  "flow-icons.hidesExplorerArrows": true,
+  "git.openRepositoryInParentFolders": "never",
+  "go.formatTool": "gofmt",
+  "editor.formatOnSave": false
 }
