@@ -140,5 +140,25 @@
         "key": "shift+cmd+p",
         "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "cmd+f",
+        "command": "notebook.hideFind",
+        "when": "notebookEditorFocused && notebookFindWidgetFocused"
+    },
+    {
+        "key": "escape",
+        "command": "-notebook.hideFind",
+        "when": "notebookEditorFocused && notebookFindWidgetFocused"
+    },
+    {
+        "key": "cmd+f",
+        "command": "closeFindWidget",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
+    },
+    {
+        "key": "escape",
+        "command": "-closeFindWidget",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
     }
 ]
